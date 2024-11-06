@@ -1,0 +1,12 @@
+[package]
+name = "shuttle-fc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+firecrawl = "1.0.0"
+serde = { version = "1.0.214", features = ["derive"] }
+shuttle-axum = "0.48.0"
+shuttle-runtime = "0.48.0"
+tokio = { version = "1.41.0", features = ["macros", "rt-multi-thread"] }
